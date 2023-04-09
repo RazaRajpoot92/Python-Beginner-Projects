@@ -1,3 +1,12 @@
+"""
+        QR CODE GENERATOR
+        
+        Qrcode generator for given text or link.
+        You need qrcode and Image, if you don't have then simply install by
+        commond: pip install qrcode Image
+"""
+
+
 import qrcode
 
 def QrCode_generator(text):

@@ -1,12 +1,28 @@
+"""
+        EMAIL SENDER
+        
+        New way of sending mail by python.
+        
+        You need go to your gmail account and generate new app password.
+        If you don't have libraries then simply install by this
+        command: pip install smptlib ssl
+        
+        You don't need to install email.message because it is pre-install
+        just import them.
+"""
+
+
 from email.message import EmailMessage
 import ssl
 import smtplib
 
 
-email_sender = "razarajpoot99598@gmail.com"
-password = "jzcjcaavacfgpjaa"
+email_sender = "Enter sender email address"
+password = "Enter sender email app password"
 
-email_reciever = "razarajpoot9959@gmail.com"
+email_reciever = "Enter receiver email address"
+
+#email subject and body, you can change it according to your need.
 
 subject = "Good Morning!"
 body = """
@@ -25,5 +41,3 @@ with smtplib.SMTP_SSL('smtp.gmail.com', context=context) as conn:
     conn.login(email_sender, password)
     conn.sendmail(email_sender, email_reciever, em.as_string())
     print("Email has been send successfully.")
-
-

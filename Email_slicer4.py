@@ -1,3 +1,13 @@
+"""
+                        EMAIL SLICER
+    
+    if you enter your mail eg example@gmail.com 
+    then out will be
+    
+    username: example
+    domain: gmail
+    extension: com
+"""
 def main():
     print("Welcome to Email Slicer!")
     print("")

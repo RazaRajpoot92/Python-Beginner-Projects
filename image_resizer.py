@@ -1,8 +1,17 @@
+"""
+                     IMAGE RESIZER
+    
+    You need install Pillow, If you don't have.
+    command : pip install Pillow
+
+"""
 from PIL import Image
 
-image = Image.open(r"E:\Python 20 Projects\new_image.jpg")
-
-print(f"Current image size: {image.size[0]} x {image.size[1]}")
+image = Image.open("Enter image Path")
+width = image[0]
+length = image[1]
+print(f"Current image size: {width} x {length}")
+#Enter your specific image size.
 new_image = image.resize((500,500))
-
-new_image.save("new_image.jpg")
+#Save your image with your specific extension. eg. .png .jpeg etc.
+new_image.save("new_image.png")

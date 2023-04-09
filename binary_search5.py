@@ -1,3 +1,8 @@
+"""
+        BINARY SEARCH ALGORITHM
+        
+"""
+
 def main(list, element):
     
     start = 0

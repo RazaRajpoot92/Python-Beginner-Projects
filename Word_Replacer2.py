@@ -1,3 +1,8 @@
+"""
+    SIMPLE WORD REPLACER
+"""
+
+
 def word_replacer():
     
     str = "This is test string for replacing the word."
