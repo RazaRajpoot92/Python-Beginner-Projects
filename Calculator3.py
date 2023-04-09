@@ -15,9 +15,7 @@ def div(num1, num2):
     
     div = num1/num2
     print(div) 
-    
-    
-    
+        
 while(True):
     print("Press 1 for addition")
     print("Press 2 for substraction")
