@@ -10,7 +10,6 @@ email_reciever = "razarajpoot9959@gmail.com"
 
 subject = "Good Morning!"
 body = """
-Good Morning!
     I hope this day is great for you. Do hard work, Stay positive and Stay blessed
 """
 
